@@ -1,3 +1,6 @@
 .env
 node_modules/
 dist/
+nohup.out
+*.log
+commands.txt
