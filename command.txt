@@ -1,0 +1,5 @@
+node --env-file=.env /home/weinni2000/src/odoo-mcp-adapter/index.mjs
+
+noup node --env-file=.env /home/weinni2000/src/odoo-mcp-adapter/index.mjs &
+lsof -i:3100
+pkill -f "odoo-mcp-adapter/index.mjs"
